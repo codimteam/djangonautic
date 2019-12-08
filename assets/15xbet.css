@@ -1,0 +1,162 @@
+article{
+	margin: 100px 30px;
+	height: 1000px;
+	background-color: white;
+}
+
+#events{
+	float: left;
+	width: 75%;
+	border-right: 1px solid grey;
+	height: 1000px;
+}
+#events h2 {
+	text-transform: uppercase;
+	margin-left: 100px;
+}
+
+
+.event{
+	display: flex;
+	align-items: center;
+	background-color: #E4E4E4;
+	margin: 1px 10px;
+}
+.explanation{
+	border-radius: 5px 5px 0 0;
+}
+.explanation #cat-L{
+	margin-left: 10px;
+	width: 3%;
+}
+
+.teams{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 60%;
+	margin: auto;
+}
+
+.team1{
+	width: 200px;
+}
+.team2{
+	width: 200px;
+	text-align: right;
+}
+
+.event > img{
+	margin-left: 10px;
+	width: 3%;
+}
+
+.coefficients{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 5px 0;
+}
+.coefficients *{
+	padding: 0;
+}
+
+.coefficients .w1{
+	transform: skewX(-20deg);
+	margin-left: -12px;
+}
+
+.coefficients .w2{
+	transform: skewX(20deg);
+	margin-right: -12px;
+}
+
+.coefficients {
+	background-color: #263238;
+}
+
+.coefficients button{
+	transition: 0.5s;
+	width: 70px;
+	display: block;
+	padding: 10px;
+	background-color: white;
+
+	border: 5px solid #263238;	
+	border-radius: 5px; 
+	cursor: pointer;
+}
+
+.coefficients button:hover{
+	border-color:#1de8b5;
+}
+
+.timeOfEvent{
+	margin-right: 10px;
+}
+
+
+
+#news {
+	width: 24%;
+	float: right;
+}
+#news  h2{
+	text-transform: uppercase;
+}
+#news img{
+	width:100%;
+}
+#news a{
+	text-decoration: none;	
+	color: black;
+}
+.new{
+	transition: 0.5s;
+	width: 90%;
+	padding: 10px;
+	/*border: 1px solid grey;*/
+	margin-bottom: 20px; 
+}
+.new:hover{
+	box-shadow: 0 0 10px #1de8b5;
+}
+
+footer{
+	background-color: #263238;
+	padding: 10px;
+}
+#footerLogo{
+	display: flex;
+}
+footer h1{
+	color:white;
+	width: 20%;
+	margin-right: 200px;
+	text-align: center;
+}
+footer ul{
+	
+	padding: 0;
+	list-style: none;
+	width: 10%;
+}
+footer li{
+	color: white;
+	text-transform: uppercase;
+}
+
+footer li a{
+	text-decoration: none;
+	color: white;
+	
+}
+footer li a:hover{
+	text-decoration: none;
+	color: blue;
+}
+footer p{
+	font-size: 12px;
+	border-top: 1px solid grey; 
+	color: grey;
+}
